@@ -1,15 +1,15 @@
 //=============================================================================
-// Viz_KeyboardTester.js [MZ] (v1.0.0)
+// Viz_KeyboardTester.js [MZ] (v1.0.1)
 //=============================================================================
 
 /*:
  * @target MZ
- * @plugindesc [MZ] (v1.0.0) Imprime en consola la actividad del teclado.
+ * @plugindesc [MZ] (v1.0.1) Registra en consola la actividad del teclado.
  * @author Vizcacha
- * @version 1.0.0
+ * @version 1.0.1
  * @url https://github.com/Cri-ParraC/Viz_KeyboardTester
- * @help Viz_KeyboardTester.js [MZ] (v1.0.0)
- * 
+ * @help Viz_KeyboardTester.js [MZ] (v1.0.1)
+ * ----------------------------------------------------------------------------
  * Plugin para RPG Maker MZ que registra en consola las teclas presionadas.
  * Útil para pruebas.
  * 
@@ -21,7 +21,7 @@
 
 (() => {
   "use strict";
-  console.info("Viz_KeyboardTester.js [MZ] (v1.0.0) activado");
+  console.info("Viz_KeyboardTester.js [MZ] (v1.0.1) activado");
 
   const pressedKeys = new Set();
 
